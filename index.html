@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+    <style>
+
+
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <section class="home">
+        <nav>
+
+            <ul>
+                <li>Services</li>
+                <li>Technologies</li>
+            </ul>
+
+            <h1 class="sliding-text">Stexity </h1>
+            <ul>
+                <li>Technalogies</li>
+                <li>Contact</li>
+            </ul>
+
+        </nav>
+
+        <!-- <img class="logo" src="./Assets/1.png" alt=""> -->
+
+        <div class="info_heading">
+            <div class="text">
+                <h1>We advise organizations in value creation strategies</h1>
+                <p>Stexity is a software development company that specializes in web and mobile app design, development,
+                    integration, and customization. We use cutting edge technologies to provide high quality solutions
+                    to our clients. At Stexity, our work process involves assessing the client’s needs through clear and
+                    proactive communication, designing the optimal solution, implementing the identified solution using
+                    the best coding practises, and ensuring that the highest quality product is delivered by utilizing a
+                    rigorous testing process.</p>
+            </div>
+            <div class="compnay_img">
+                <img src="./Assets/1.png" class="logo" alt="">
+            </div>
+        </div>
+
+
+
+
+        <div class="wave_container">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="slidersing">
+        <div class="info_Headings">
+        <h1>Technalogies</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis repellendus quis, nisi ad nihil consequatur minima tenetur, consequuntur error veniam dolores voluptatem porro! Omnis quos sit aliquid cum id.</p>
+    </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./course_img/django.png"></div>
+                <div class="swiper-slide"><img src="./course_img/expressjs.png"></div>
+                <div class="swiper-slide"><img src="./course_img/javascript.png"></div>
+                <div class="swiper-slide"><img src="./course_img/jest.png"></div>
+                <div class="swiper-slide"><img src="./course_img/mongodb.png"></div>
+                <div class="swiper-slide"><img src="./course_img/nodejs.png"></div>
+                <div class="swiper-slide"><img src="./course_img/postgresql.png"></div>
+                <div class="swiper-slide"><img src="./course_img/python.png"></div>
+                <div class="swiper-slide"><img src="./course_img/react-icon.png"></div>
+                <div class="swiper-slide"><img src="./course_img/redux.png"></div>
+                <div class="swiper-slide"><img src="./course_img/typescript.png"></div>
+                <div class="swiper-slide"><img src="./course_img/vuejs.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            loop: true,
+
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                300: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        },
+
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
